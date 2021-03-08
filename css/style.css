@@ -178,7 +178,21 @@
     color: var(--overlay-color);
 }
 
-@media(max-width: 898px) {
+@media(max-width: 768px) {
+    .showcase, .showcase header {
+        padding: 40px;
+    }
+
+    .text h2 {
+        font-size: 3em;
+    }
+
+    .text h3 {
+        font-size: 2em;
+    }
+}
+
+@media(max-width: 480px) {
     .showcase, .showcase header {
         padding: 40px;
     }
